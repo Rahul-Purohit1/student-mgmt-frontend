@@ -68,7 +68,7 @@ const App: React.FC = () => {
 
 
   const addNewStudent = async (student: Student) => {
-    const newStudent = await addStudent(student); 
+    await addStudent(student); 
     fetchAllStudents(); 
   };
 
